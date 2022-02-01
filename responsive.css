@@ -1,0 +1,174 @@
+body {
+  margin: 0;
+  background-color: #326666;
+  overflow-x: hidden;
+}
+
+body a {
+  text-decoration: none;
+}
+
+body li {
+  list-style-type: none;
+}
+
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px;
+}
+
+.navbar img {
+  width: 50px;
+  margin-left: 10px;
+}
+
+.navbar .ham {
+  height: 3px;
+  margin-bottom: 5px;
+  margin-right: 10px;
+  width: 30px;
+  background-color: whitesmoke;
+}
+
+.navbar .nav-menu {
+  display: none;
+}
+
+.hero {
+  position: relative;
+}
+
+.hero img {
+  width: 500px;
+  overflow: hidden;
+  -o-object-fit: cover;
+     object-fit: cover;
+  opacity: 0.5;
+}
+
+.hero .hero-text {
+  position: absolute;
+  top: 10px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 4rem;
+  text-transform: uppercase;
+}
+
+.hero p {
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: -1.2rem;
+  font-size: 1.3rem;
+  font-weight: 200;
+}
+
+.hero .hero-btn {
+  position: absolute;
+  top: 35%;
+  right: 30%;
+  font-size: 2rem;
+  background-color: #82a4ee;
+  padding: 10px;
+  border-radius: 30px;
+}
+
+.hero .hero-btn:hover {
+  background-color: aqua;
+}
+
+.article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.article img {
+  width: 500px;
+  margin-top: 23px;
+}
+
+.article .article-news {
+  text-align: center;
+  margin-top: -1rem;
+}
+
+.article .article-news h3 {
+  color: palevioletred;
+}
+
+.article .article-desc {
+  margin-top: -1rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.article .article-desc a {
+  color: whitesmoke;
+}
+
+.extra {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 4em;
+  position: relative;
+}
+
+.extra img {
+  position: absolute;
+  top: 250px;
+  width: 300px;
+}
+
+.extra .extra-desc {
+  position: absolute;
+  text-align: center;
+  color: whitesmoke;
+  top: -100px;
+}
+
+.extra .extra-desc h3 {
+  font-size: 5rem;
+  font-weight: 800;
+}
+
+.extra .extra-desc p {
+  margin-top: -4em;
+}
+
+.extra .extra-desc a {
+  font-size: 2rem;
+  background-color: whitesmoke;
+  color: black;
+  padding: 10px;
+  border-radius: 30px;
+}
+
+@media only screen and (min-width: 520px) {
+  body {
+    display: none;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */
