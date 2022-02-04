@@ -1,7 +1,7 @@
 body {
   margin: 0;
-  background-color: #326666;
-  overflow-x: hidden;
+  background-color: black;
+  font-family: monospace;
 }
 
 body a {
@@ -27,13 +27,11 @@ body li {
 
 .navbar img {
   width: 50px;
-  margin-left: 10px;
 }
 
 .navbar .ham {
   height: 3px;
   margin-bottom: 5px;
-  margin-right: 10px;
   width: 30px;
   background-color: whitesmoke;
 }
@@ -47,8 +45,7 @@ body li {
 }
 
 .hero img {
-  width: 500px;
-  overflow: hidden;
+  width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
   opacity: 0.5;
@@ -63,6 +60,7 @@ body li {
 .hero h1 {
   font-size: 4rem;
   text-transform: uppercase;
+  color: whitesmoke;
 }
 
 .hero p {
@@ -71,13 +69,14 @@ body li {
   margin-top: -1.2rem;
   font-size: 1.3rem;
   font-weight: 200;
+  color: whitesmoke;
 }
 
 .hero .hero-btn {
   position: absolute;
-  top: 35%;
-  right: 30%;
-  font-size: 2rem;
+  bottom: 10%;
+  right: 40%;
+  font-size: 1rem;
   background-color: #82a4ee;
   padding: 10px;
   border-radius: 30px;
@@ -101,7 +100,7 @@ body li {
 }
 
 .article img {
-  width: 500px;
+  width: 100%;
   margin-top: 23px;
 }
 
