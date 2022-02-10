@@ -73,7 +73,7 @@ header .nav-link .nav-item {
 }
 
 header .nav-link.active {
-  top: 7%;
+  top: 2em;
   opacity: 1;
 }
 
@@ -254,7 +254,7 @@ header .hamburger.active .ham-line-3 {
   font-size: 1.5rem;
   background-color: var(--blue);
   border-radius: 1.5em;
-  padding: 0.2em;
+  padding: 0.3em;
   padding-left: 0.2em;
   padding-right: 0.2em;
 }
